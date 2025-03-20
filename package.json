@@ -7,8 +7,8 @@
     "@11ty/eleventy": "^3.0.0"
   },
   "scripts": {
- "build": "npx eleventy"
-    "test": "echo \"Error: no test specified\" && exit 1"
+ "build": "npx eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "repository": {
     "type": "git",
