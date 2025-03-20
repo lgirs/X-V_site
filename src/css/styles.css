@@ -1,7 +1,7 @@
 body {
     background-color: #FAF3E0; /* Wheat Paper White */
-    color: #FAF3E0; /* Light text to contrast bold background */
-    font-family: 'Courier New', monospace;
+    color: #FAF3E0; /* Change to a light color for contrast */
+    font-family: 'Special Elite', 'Courier New', monospace;
     font-size: 18px;
     line-height: 1.6;
     margin: 0;
@@ -24,6 +24,18 @@ header h1 a {
 header h1 a:hover {
     text-decoration: underline;
     color: #E76F51; /* Neon-ish Orange on hover */
+}
+
+h1, h2, h3 {
+    font-family: 'Stardos Stencil', sans-serif;
+    text-transform: uppercase;
+    color: #E76F51; /* Neon-ish Orange for high contrast */
+}
+
+.cutout-text {
+    background: #1B1B1B; /* Brick Black */
+    color: #FAF3E0; /* Light text on dark background */
+    padding: 2px 6px;
 }
 
 

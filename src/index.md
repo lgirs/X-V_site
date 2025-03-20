@@ -3,7 +3,7 @@ title: Welcome to X/V
 layout: base.html
 ---
 
-This is the first page of the X/V website. More chaos coming soon!
+This is the first page of the <span class="cutout-text">X/V</span> website. More chaos coming soon!
 
 ## Explore the contents
 
@@ -12,3 +12,6 @@ This is the first page of the X/V website. More chaos coming soon!
     <a href="/tags/{{ tag }}/">{{ tag }}</a>
 {% endfor %}
 </div>
+
+## Arcade
+[Play Pong Invaders](arcade/)
