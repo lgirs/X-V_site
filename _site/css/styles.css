@@ -1,0 +1,112 @@
+body {
+    background-color: #FAF3E0; /* Wheat Paper White */
+    color: #FAF3E0; /* Light text to contrast bold background */
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('/assets/images/xv_background1.jpeg'); /* Use your actual image */
+    background-size: cover; /* Covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps it in place while scrolling */
+    background-blend-mode: multiply; /* Adds a blended effect */
+}
+
+/* Make the header title clickable */
+/* Style the header title */
+header h1 a {
+    color: #FAF3E0; /* Wheat Paper White */
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+    color: #E76F51; /* Neon-ish Orange on hover */
+}
+
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    border-radius: 5px;
+}
+
+
+/* Random offsets for a messy look */
+h1 {
+    position: relative;
+    left: -10px; /* Slight misalignment */
+    transform: rotate(-2deg); /* Slight tilt */
+}
+
+p {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    transform: rotate(1deg);
+}
+
+a {
+    color: #E76F51; /* Neon-ish Orange for visibility */
+    text-decoration: none; /* Remove default underline */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Add an underline on hover */
+    color: #A63D40; /* Desaturated Red for hover effect */
+}
+
+
+/* Randomized rotation on hover */
+p:hover {
+    transform: rotate(-1.5deg) scale(1.02);
+    transition: transform 0.1s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+/* Style for tag links */
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.tag-list a {
+    background-color: #E76F51; /* Neon-ish Orange */
+    color: #FAF3E0; /* Wheat Paper White */
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 2px solid #1B1B1B; /* Brick Black */
+    display: inline-block;
+    transform: rotate(-2deg); /* Slight tilt */
+    transition: transform 0.2s ease-in-out, background 0.2s;
+}
+
+.tag-list a:hover {
+    background-color: #A63D40; /* Desaturated Red */
+    transform: rotate(2deg) scale(1.1); /* Shake effect */
+}
+
+}
